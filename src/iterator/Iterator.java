@@ -1,4 +1,4 @@
-package aggregator;
+package iterator;
 
 public interface Iterator {
     boolean next();

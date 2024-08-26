@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e64503a0-e22c-4783-a44a-72127257df6a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aggregator/Aggregator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aggregator/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aggregator/ArrayIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aggregator/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aggregator/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iterator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/GaussSumStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/SimpleSumStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/SumPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/SumStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aggregator/Aggregator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iterator/Aggregator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aggregator/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iterator/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aggregator/ArrayIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iterator/ArrayIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aggregator/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iterator/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aggregator/Iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iterator/Iterator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +51,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="strategy" />
+      <recent name="aggregator" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="aggregator" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.strategy.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="design-pattern" />
@@ -57,9 +66,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="iterator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iterator.Main" />
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="iterator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="strategy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strategy.Main" />
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.strategy.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.iterator.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -71,7 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724642279536</updated>
-      <workItem from="1724642280693" duration="1265000" />
+      <workItem from="1724642280693" duration="3913000" />
     </task>
     <servers />
   </component>
@@ -88,5 +125,26 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/strategy/SimpleSumStrategy.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/strategy/SimpleSumStrategy.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/strategy/SimpleSumStrategy.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
