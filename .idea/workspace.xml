@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e64503a0-e22c-4783-a44a-72127257df6a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/adapter/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/Tiger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/TigerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/CaptionDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/Display.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/Draft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/Publication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/SimpleDisplay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,10 +49,11 @@
       <recent name="aggregator" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bridge" />
       <recent name="aggregator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.adapter.Main">
+  <component name="RunManager" selected="Application.bridge.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="design-pattern" />
@@ -73,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="iterator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iterator.Main" />
+    <configuration name="bridge.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bridge.Main" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iterator.*" />
+          <option name="PATTERN" value="bridge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bridge.Main" />
         <item itemvalue="Application.adapter.Main" />
         <item itemvalue="Application.template.Main" />
         <item itemvalue="Application.strategy.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.iterator.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +131,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724642279536</updated>
-      <workItem from="1724642280693" duration="5273000" />
+      <workItem from="1724642280693" duration="6733000" />
     </task>
     <servers />
   </component>
