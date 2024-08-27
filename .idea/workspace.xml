@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e64503a0-e22c-4783-a44a-72127257df6a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bridge/CaptionDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bridge/Display.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bridge/Draft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bridge/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bridge/Publication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bridge/SimpleDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singleton/King.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singleton/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,14 +49,7 @@
       <recent name="aggregator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.bridge.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="design-pattern" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.singleton.Main">
     <configuration name="adapter.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="adapter.Main" />
       <module name="design-pattern" />
@@ -80,6 +69,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="bridge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="singleton.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="singleton.Main" />
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.singleton.Main" />
         <item itemvalue="Application.bridge.Main" />
         <item itemvalue="Application.adapter.Main" />
         <item itemvalue="Application.template.Main" />
         <item itemvalue="Application.strategy.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +133,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724642279536</updated>
-      <workItem from="1724642280693" duration="6733000" />
+      <workItem from="1724642280693" duration="7443000" />
     </task>
     <servers />
   </component>
