@@ -1,0 +1,27 @@
+
+b
+java:S1192"FDefine a constant instead of duplicating this literal "Nanum" 5 times.(ßÇÎn8ı‚‘™2
+b
+java:S1192"FDefine a constant instead of duplicating this literal "while" 5 times.(ßÇÎn8ş‚‘™2
+X
+java:S1854"6Remove this useless assignment to local variable "c5".(Úç€òşÿÿÿÿ8ƒ‘™2
+S
+java:S1854
+"6Remove this useless assignment to local variable "c4".(»Áà…8ª¢’™2
+X
+java:S1854	"6Remove this useless assignment to local variable "c3".(˜÷ üÿÿÿÿ8ª¢’™2
+X
+java:S1854"6Remove this useless assignment to local variable "c2".(Ÿª·ıÿÿÿÿ8ƒ‘™2
+R
+java:S1854"6Remove this useless assignment to local variable "c1".(ßÇÎn8ƒ‘™2
+C
+java:S1481"'Remove this unused "c1" local variable.(ßÇÎn8ÿÚ™2
+I
+java:S1481"'Remove this unused "c2" local variable.(Ÿª·ıÿÿÿÿ8Í¤‘™2
+I
+java:S1481	"'Remove this unused "c3" local variable.(˜÷ üÿÿÿÿ8Í¤‘™2
+D
+java:S1481
+"'Remove this unused "c4" local variable.(»Áà…8ó¾’™2
+I
+java:S1481"'Remove this unused "c5" local variable.(Úç€òşÿÿÿÿ8ó¾’™2

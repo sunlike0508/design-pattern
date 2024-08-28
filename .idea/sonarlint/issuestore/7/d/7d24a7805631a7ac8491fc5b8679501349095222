@@ -1,0 +1,28 @@
+
+c
+java:S1192"FDefine a constant instead of duplicating this literal "while" 5 times.(ÓóÑò8Ò’®™2
+f
+java:S1192"IDefine a constant instead of duplicating this literal "nanum:12" 5 times.(ÓóÑò8Ò’®™2
+S
+java:S1854"6Remove this useless assignment to local variable "c5".(¼£é£8Ô’®™2
+S
+java:S1854"6Remove this useless assignment to local variable "c4".(û¿’8Ô’®™2
+X
+java:S1854"6Remove this useless assignment to local variable "c3".(’·ÛÔúÿÿÿÿ8Ô’®™2
+R
+java:S1854"6Remove this useless assignment to local variable "c2".(Å²µ{8Õ’®™2
+S
+java:S1854"6Remove this useless assignment to local variable "c1".(ÓóÑò8Õ’®™2
+H
+java:S2440"+Remove this instantiation of "FontFactory".(§­Ó÷8Õ’®™2
+D
+java:S1481"'Remove this unused "c1" local variable.(ÓóÑò8Õ’®™2
+C
+java:S1481"'Remove this unused "c2" local variable.(Å²µ{8Ö’®™2
+I
+java:S1481"'Remove this unused "c3" local variable.(’·ÛÔúÿÿÿÿ8Ö’®™2
+D
+java:S1481"'Remove this unused "c4" local variable.(û¿’8Ö’®™2
+D
+java:S1481"'Remove this unused "c5" local variable.(¼£é£8Ö’®™2
+X	java:S125"<This block of commented-out lines of code should be removed.(¾”¾¤8€ö­™2
