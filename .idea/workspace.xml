@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e64503a0-e22c-4783-a44a-72127257df6a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/structural/factory/Bow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/factory/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/factory/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/factory/ItemFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/factory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/factory/Shield.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/factory/Sword.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structural/factory/ItemFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/factory/ItemFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +150,7 @@
       <option name="presentableId" value="Default" />
       <updated>1724642279536</updated>
       <workItem from="1724642280693" duration="10634000" />
-      <workItem from="1724850039791" duration="3047000" />
+      <workItem from="1724850039791" duration="4366000" />
     </task>
     <servers />
   </component>
