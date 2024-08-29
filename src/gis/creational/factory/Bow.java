@@ -1,4 +1,4 @@
-package gis.structural.factory;
+package gis.creational.factory;
 
 public class Bow implements Item {
 

@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e64503a0-e22c-4783-a44a-72127257df6a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/observer/DiceGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/observer/EvenBettingPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/observer/FaireDiceGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/observer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/observer/NBettingPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/observer/OddBettingPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/observer/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/observer/UnfairDiceGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural/factory/ItemFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/factory/ItemFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gis/structural/factory/Bow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gis/creational/factory/Bow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gis/structural/factory/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gis/creational/factory/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gis/structural/factory/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gis/creational/factory/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gis/structural/factory/ItemFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gis/creational/factory/ItemFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gis/structural/factory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gis/creational/factory/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gis/structural/factory/Shield.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gis/creational/factory/Shield.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gis/structural/factory/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gis/creational/factory/Sword.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +56,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "code.cleanup.on.save": "true",
-    "last_opened_file_path": "/Users/seonhoshin/javacode/design-pattern/src/flyweight/data",
+    "last_opened_file_path": "/Users/seonhoshin/javacode/design-pattern",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "rearrange.code.on.save": "true",
@@ -58,20 +72,20 @@
       <recent name="$PROJECT_DIR$/src/flyweight/data" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="gis.behavioral.observer" />
       <recent name="structural.factory" />
       <recent name="structural.composite" />
       <recent name="flyweight.after" />
       <recent name="flyweight.before" />
-      <recent name="flyweight" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.structural.factory.Main">
+  <component name="RunManager" selected="Application.gis.behavioral.observer.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.flyweight.after.Main" />
+      <option name="MAIN_CLASS_NAME" value="gis.structural.flyweight.after.Main" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural.flyweight.after.*" />
+          <option name="PATTERN" value="gis.structural.flyweight.after.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="creational.singleton.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.singleton.Main" />
+    <configuration name="gis.behavioral.observer.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gis.behavioral.observer.Main" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creational.singleton.*" />
+          <option name="PATTERN" value="gis.behavioral.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="structural.bridge.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.bridge.Main" />
+    <configuration name="gis.creational.factory.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gis.creational.factory.Main" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural.bridge.*" />
+          <option name="PATTERN" value="gis.creational.factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="structural.composite.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.composite.Main" />
+    <configuration name="gis.structural.bridge.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gis.structural.bridge.Main" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural.composite.*" />
+          <option name="PATTERN" value="gis.structural.bridge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="structural.factory.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.factory.Main" />
+    <configuration name="gis.structural.composite.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gis.structural.composite.Main" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural.factory.*" />
+          <option name="PATTERN" value="gis.structural.composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.structural.factory.Main" />
-        <item itemvalue="Application.structural.composite.Main" />
-        <item itemvalue="Application.structural.bridge.Main" />
+        <item itemvalue="Application.gis.behavioral.observer.Main" />
+        <item itemvalue="Application.gis.creational.factory.Main" />
+        <item itemvalue="Application.gis.structural.composite.Main" />
+        <item itemvalue="Application.gis.structural.bridge.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.creational.singleton.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +164,7 @@
       <option name="presentableId" value="Default" />
       <updated>1724642279536</updated>
       <workItem from="1724642280693" duration="10634000" />
-      <workItem from="1724850039791" duration="4366000" />
+      <workItem from="1724850039791" duration="6210000" />
     </task>
     <servers />
   </component>
@@ -172,17 +186,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/behavioral/strategy/SimpleSumStrategy.java</url>
+          <url>file://$PROJECT_DIR$/src/gis/behavioral/strategy/SimpleSumStrategy.java</url>
           <line>9</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/behavioral/strategy/SimpleSumStrategy.java</url>
+          <url>file://$PROJECT_DIR$/src/gis/behavioral/strategy/SimpleSumStrategy.java</url>
           <line>11</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/behavioral/strategy/SimpleSumStrategy.java</url>
+          <url>file://$PROJECT_DIR$/src/gis/behavioral/strategy/SimpleSumStrategy.java</url>
           <line>14</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>

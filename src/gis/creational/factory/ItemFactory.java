@@ -1,4 +1,4 @@
-package gis.structural.factory;
+package gis.creational.factory;
 
 import java.util.HashMap;
 

@@ -1,4 +1,4 @@
-package gis.structural.factory;
+package gis.creational.factory;
 
 public abstract class Factory {
 
