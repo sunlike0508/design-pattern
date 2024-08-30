@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e64503a0-e22c-4783-a44a-72127257df6a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/mediator/CoolAircon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/mediator/Door.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/mediator/HeatBoiler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/mediator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/mediator/Mediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/mediator/Participant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/mediator/SmartHome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/mediator/Window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/memento/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/memento/Walker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,14 +59,27 @@
       <recent name="$PROJECT_DIR$/src/flyweight/data" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="gis.behavioral.memento" />
       <recent name="gis.behavioral.mediator" />
       <recent name="gis.behavioral.observer" />
       <recent name="structural.factory" />
       <recent name="structural.composite" />
-      <recent name="flyweight.after" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.gis.behavioral.mediator.Main">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gis.behavioral.memento.Main" />
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gis.behavioral.memento.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="gis.behavioral.mediator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gis.behavioral.mediator.Main" />
       <module name="design-pattern" />
@@ -112,19 +119,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gis.structural.bridge.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gis.structural.bridge.Main" />
-      <module name="design-pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gis.structural.bridge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="gis.structural.composite.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gis.structural.composite.Main" />
       <module name="design-pattern" />
@@ -140,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.gis.behavioral.mediator.Main" />
         <item itemvalue="Application.gis.behavioral.observer.Main" />
         <item itemvalue="Application.gis.creational.factory.Main" />
         <item itemvalue="Application.gis.structural.composite.Main" />
-        <item itemvalue="Application.gis.structural.bridge.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +151,7 @@
       <option name="presentableId" value="Default" />
       <updated>1724642279536</updated>
       <workItem from="1724642280693" duration="10634000" />
-      <workItem from="1724850039791" duration="8535000" />
+      <workItem from="1724850039791" duration="11954000" />
     </task>
     <servers />
   </component>
