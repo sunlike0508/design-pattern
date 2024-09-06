@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e64503a0-e22c-4783-a44a-72127257df6a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/gis/creational/prototype/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gis/creational/prototype/Line.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gis/creational/prototype/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gis/creational/prototype/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gis/creational/prototype/Prototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gis/creational/prototype/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gis/creational/builder/way1/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gis/creational/builder/way1/CarBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gis/creational/builder/way1/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,14 +61,14 @@
       <recent name="$PROJECT_DIR$/src/flyweight/data" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="gis.creational.builder" />
       <recent name="gis.creational.prototype" />
       <recent name="gis.behavioral.chain" />
       <recent name="gis.structural.decorator" />
       <recent name="gis.behavioral.memento" />
-      <recent name="gis.behavioral.mediator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.gis.creational.prototype.Main">
+  <component name="RunManager" selected="Application.gis.creational.builder.way1.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gis.structural.composite.Main" />
       <module name="design-pattern" />
@@ -87,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gis.behavioral.chain.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gis.behavioral.chain.Main" />
+    <configuration name="gis.behavioral.template.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gis.behavioral.template.Main" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gis.behavioral.chain.*" />
+          <option name="PATTERN" value="gis.behavioral.template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gis.behavioral.template.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gis.behavioral.template.Main" />
+    <configuration name="gis.creational.builder.way1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gis.creational.builder.way1.Main" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gis.behavioral.template.*" />
+          <option name="PATTERN" value="gis.creational.builder.way1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.gis.creational.builder.way1.Main" />
         <item itemvalue="Application.gis.creational.prototype.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.gis.creational.factory.Main" />
         <item itemvalue="Application.gis.behavioral.template.Main" />
-        <item itemvalue="Application.gis.behavioral.chain.Main" />
       </list>
     </recent_temporary>
   </component>
