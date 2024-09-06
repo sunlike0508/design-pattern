@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e64503a0-e22c-4783-a44a-72127257df6a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/gis/creational/builder/way1/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gis/creational/builder/way1/CarBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gis/creational/builder/way1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gis/creational/builder/way2/way1/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gis/creational/builder/way2/way1/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gis/creational/builder/way2/way1/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gis/creational/builder/way2/way1/IntroduceTextBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gis/creational/builder/way2/way1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gis/creational/builder/way2/way1/PlainTextBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,25 +40,37 @@
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2lB8ns1SK8h2XiPjdisToXrZySg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/seonhoshin/javacode/design-pattern&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.gis.behavioral.chain.Main.executor": "Run",
+    "Application.gis.creational.builder.way2.way1.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "code.cleanup.on.save": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/seonhoshin/javacode/design-pattern/src/gis/creational/builder/way2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="gis.structural.decorator" />
@@ -58,17 +78,18 @@
       <recent name="aggregator" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/gis/creational/builder/way2" />
       <recent name="$PROJECT_DIR$/src/flyweight/data" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="gis.creational.builder.way2.way1" />
       <recent name="gis.creational.builder" />
       <recent name="gis.creational.prototype" />
       <recent name="gis.behavioral.chain" />
       <recent name="gis.structural.decorator" />
-      <recent name="gis.behavioral.memento" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.gis.creational.builder.way1.Main">
+  <component name="RunManager" selected="Application.gis.creational.builder.way2.way1.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gis.structural.composite.Main" />
       <module name="design-pattern" />
@@ -82,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gis.behavioral.template.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gis.behavioral.template.Main" />
+    <configuration name="gis.behavioral.chain.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gis.behavioral.chain.Main" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gis.behavioral.template.*" />
+          <option name="PATTERN" value="gis.behavioral.chain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gis.creational.factory.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gis.creational.factory.Main" />
+    <configuration name="gis.creational.builder.way2.way1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gis.creational.builder.way2.way1.Main" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gis.creational.factory.*" />
+          <option name="PATTERN" value="gis.creational.builder.way2.way1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,13 +157,21 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.gis.creational.builder.way2.way1.Main" />
+        <item itemvalue="Application.gis.behavioral.chain.Main" />
         <item itemvalue="Application.gis.creational.builder.way1.Main" />
         <item itemvalue="Application.gis.creational.prototype.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.gis.creational.factory.Main" />
-        <item itemvalue="Application.gis.behavioral.template.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -158,6 +187,10 @@
       <workItem from="1725078570646" duration="2014000" />
       <workItem from="1725200447616" duration="2967000" />
       <workItem from="1725364179788" duration="1794000" />
+      <workItem from="1725625200879" duration="38000" />
+      <workItem from="1725625274163" duration="341000" />
+      <workItem from="1725625788285" duration="96000" />
+      <workItem from="1725625893625" duration="1421000" />
     </task>
     <servers />
   </component>
