@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e64503a0-e22c-4783-a44a-72127257df6a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/state/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/state/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/state/RunState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/state/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/state/StopState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/state/WalkState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/interpreter/ActionCommandExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/interpreter/BeginExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/interpreter/CommandExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/interpreter/CommandListExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/interpreter/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/interpreter/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/interpreter/LoopCommandExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/interpreter/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +54,7 @@
     "Application.Main.executor": "Run",
     "Application.gis.behavioral.chain.Main.executor": "Run",
     "Application.gis.behavioral.command.Main.executor": "Run",
+    "Application.gis.behavioral.interpreter.Main.executor": "Run",
     "Application.gis.behavioral.state.Main.executor": "Run",
     "Application.gis.creational.builder.way2.way1.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -67,6 +70,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "rearrange.code.on.save": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
@@ -84,14 +90,14 @@
       <recent name="$PROJECT_DIR$/src/flyweight/data" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="gis.behavioral.interpreter" />
       <recent name="gis.behavioral.state" />
       <recent name="gis.creational.abstractfactory" />
       <recent name="gis.behavioral.command" />
       <recent name="gis.creational.builder.way2.way1" />
-      <recent name="gis.creational.builder" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.gis.behavioral.state.Main">
+  <component name="RunManager" selected="Application.gis.behavioral.interpreter.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gis.creational.abstractfactory.Main" />
       <module name="design-pattern" />
@@ -105,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gis.behavioral.chain.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gis.behavioral.chain.Main" />
+    <configuration name="gis.behavioral.command.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gis.behavioral.command.Main" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gis.behavioral.chain.*" />
+          <option name="PATTERN" value="gis.behavioral.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gis.behavioral.command.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gis.behavioral.command.Main" />
+    <configuration name="gis.behavioral.interpreter.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gis.behavioral.interpreter.Main" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gis.behavioral.command.*" />
+          <option name="PATTERN" value="gis.behavioral.interpreter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.gis.behavioral.interpreter.Main" />
         <item itemvalue="Application.gis.behavioral.state.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.gis.behavioral.command.Main" />
         <item itemvalue="Application.gis.creational.builder.way2.way1.Main" />
-        <item itemvalue="Application.gis.behavioral.chain.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +199,7 @@
       <workItem from="1725625274163" duration="341000" />
       <workItem from="1725625788285" duration="96000" />
       <workItem from="1725625893625" duration="1585000" />
-      <workItem from="1725772205176" duration="3460000" />
+      <workItem from="1725772205176" duration="7677000" />
     </task>
     <servers />
   </component>
@@ -234,8 +240,94 @@
           <line>8</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gis/behavioral/interpreter/BeginExpression.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gis/behavioral/interpreter/BeginExpression.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gis/behavioral/interpreter/CommandListExpression.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gis/behavioral/interpreter/CommandListExpression.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gis/behavioral/interpreter/CommandListExpression.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gis/behavioral/interpreter/CommandListExpression.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gis/behavioral/interpreter/CommandListExpression.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gis/behavioral/interpreter/CommandListExpression.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gis/behavioral/interpreter/CommandListExpression.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gis/behavioral/interpreter/LoopCommandExpression.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gis/behavioral/interpreter/LoopCommandExpression.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gis/behavioral/interpreter/LoopCommandExpression.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gis/behavioral/interpreter/LoopCommandExpression.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gis/behavioral/interpreter/LoopCommandExpression.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gis/behavioral/interpreter/CommandListExpression.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gis/behavioral/interpreter/CommandListExpression.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="expression" language="JAVA" />
+        <watch expression="commands" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
