@@ -8,9 +8,8 @@ public class Main {
         Builder plain = new PlainTextBuilder(data);
         Director plainDirector = new Director(plain);
         System.out.println(plainDirector.build());
-
         System.out.println();
-        
+
         Builder introduce = new IntroduceTextBuilder(data);
         Director introduceDirector = new Director(introduce);
         System.out.println(introduceDirector.build());

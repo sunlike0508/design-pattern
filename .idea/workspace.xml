@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e64503a0-e22c-4783-a44a-72127257df6a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/gis/creational/builder/way2/way1/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gis/creational/builder/way2/way1/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gis/creational/builder/way2/way1/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gis/creational/builder/way2/way1/IntroduceTextBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gis/creational/builder/way2/way1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gis/creational/builder/way2/way1/PlainTextBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/command/ClearCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/command/CommandGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/command/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/command/MoveCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gis/behavioral/command/PrintCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gis/creational/builder/way2/way1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gis/creational/builder/way2/way1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +51,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.gis.behavioral.chain.Main.executor": "Run",
+    "Application.gis.behavioral.command.Main.executor": "Run",
     "Application.gis.creational.builder.way2.way1.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -82,20 +82,20 @@
       <recent name="$PROJECT_DIR$/src/flyweight/data" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="gis.behavioral.command" />
       <recent name="gis.creational.builder.way2.way1" />
       <recent name="gis.creational.builder" />
       <recent name="gis.creational.prototype" />
       <recent name="gis.behavioral.chain" />
-      <recent name="gis.structural.decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.gis.creational.builder.way2.way1.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gis.structural.composite.Main" />
+  <component name="RunManager" selected="Application.gis.behavioral.command.Main">
+    <configuration name="gis.behavioral.chain.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gis.behavioral.chain.Main" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gis.structural.composite.*" />
+          <option name="PATTERN" value="gis.behavioral.chain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gis.behavioral.chain.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gis.behavioral.chain.Main" />
+    <configuration name="gis.behavioral.command.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gis.behavioral.command.Main" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gis.behavioral.chain.*" />
+          <option name="PATTERN" value="gis.behavioral.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.gis.behavioral.command.Main" />
         <item itemvalue="Application.gis.creational.builder.way2.way1.Main" />
         <item itemvalue="Application.gis.behavioral.chain.Main" />
         <item itemvalue="Application.gis.creational.builder.way1.Main" />
         <item itemvalue="Application.gis.creational.prototype.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +190,8 @@
       <workItem from="1725625200879" duration="38000" />
       <workItem from="1725625274163" duration="341000" />
       <workItem from="1725625788285" duration="96000" />
-      <workItem from="1725625893625" duration="1421000" />
+      <workItem from="1725625893625" duration="1585000" />
+      <workItem from="1725772205176" duration="637000" />
     </task>
     <servers />
   </component>
